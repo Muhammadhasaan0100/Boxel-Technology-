@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio | Boxel Technology</title>
+    <link rel="icon" type="image/png" href="/Image/x tab.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/portfolio-page.css">
+</head>
+<body>
+
+     <!-- Header -->
+<header>
+    <!-- Logo -->
+    
+      <a href="index.html" class="logo"></a>
+    
+
+    <!-- Menu Icon -->
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="services-page.html">Services</a>
+            <a href="portfolio-page.html">Portfolio</a>
+            <a href="about-page.html">About</a>
+            <a href="contact-page.html"id="contact-us-a">Contact</a>      
+    </nav>
+
+    <!-- Contact Button -->
+
+    <div class="contact-btn">
+      <a href="contact-page.html">CONTACT US</a>
+    </div>
+  </header>
+
+    <!-- Main Portfolio Content -->
+    <main class="portfolio-main">
+        <!-- Hero Section -->
+        <section class="portfolio-hero">
+            <div class="hero-content">
+                <h1>Our <span>Portfolio</span></h1>
+                <p>Explore our collection of innovative projects that highlight our expertise with companies around the world and creative solutions.</p>
+                <a href="contact-page.html" class="btn">Start Your Project</a>
+            </div>
+
+        </section>
+
+        <!-- Portfolio Filter -->
+        <section class="portfolio-filter-section">
+            <div class="filter-container">
+            <button class="filter-btn active" data-filter="3d">3D Models</button>
+            <button class="filter-btn" data-filter="graphic">Graphics</button>
+            <button class="filter-btn" data-filter="uiux">UI UX</button>
+            <button class="filter-btn" data-filter="web">Websites</button>
+            <button class="filter-btn" data-filter="social">Social Media</button>
+            
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section class="portfolio-grid-section">
+            <div class="portfolio-grid">
+                <!-- Project 1 - 3D Model -->
+                <div class="portfolio-item " id="project-1-3d" data-category="3d" data-tags="architecture visualization 3d">
+                    <div class="item-3d-preview">
+                        <div class="rotating-building"></div>
+                    </div>
+                    <div class="item-content">
+                        <h3>Scrap Revolver </h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup', 'revolver')">View Project</a>
+                    </div>
+                </div>
+             <!-- Fullscreen Popup -->
+                <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+
+                <!-- Project 2 - 3D Model -->
+                <div class="portfolio-item " id="project-2-3d" data-category="3d" data-tags="architecture visualization 3d">
+                    <div class="item-3d-preview">
+                        <div class="rotating-building"></div>
+                    </div>
+                    <div class="item-content">
+                        <h3>Interrogative Basement Props</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup', 'Basement_Props')">View Project</a>
+                    </div>
+                </div>
+             <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+                <!-- Project 3 - 3D Model -->
+                <div class="portfolio-item " id="project-3-3d" data-category="3d" data-tags="architecture visualization 3d">
+                    <div class="item-3d-preview">
+                        <div class="rotating-building"></div>
+                    </div>
+                    <div class="item-content">
+                        <h3>Interrogative Basement Scene</h3>
+                        <a href="#"  class="btn btn-small" onclick="openPopup('popup' ,'Basement_Scene')">View Project</a>
+                    </div>
+                </div>
+             <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+                <!-- Project 4 - 3D Model -->
+                <div class="portfolio-item " id="project-4-3d" data-category="3d" data-tags="architecture visualization 3d">
+                    <div class="item-3d-preview">
+                        <div class="rotating-building"></div>
+                    </div>
+                    <div class="item-content">
+                        <h3>Stylize 3D Props</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup', 'Stylize_3D_Props')">View Project</a>
+                    </div>
+                </div>
+               <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+                <!-- Project 1 - 3D Printing -->
+                <div class="portfolio-item " id="project-1-3p" data-category="3d" data-tags="architecture visualization 3d">
+                    <div class="item-3d-preview">
+                        <div class="rotating-building"></div>
+                    </div>
+                    <div class="item-content">
+                        <h3>3D Printing Ready Models</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup', 'printing_3D_models')">View Project</a>
+                    </div>
+                </div>
+               <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+                <!-- Project 1 - Graphic Design -->
+                <div class="portfolio-item" id="project-1-graphic" data-category="graphic" data-tags="branding logo design">
+                    <div class="item-graphic-preview project1-graphic">
+                    </div>
+                    <div class="item-content">
+                        <h3>Packaging Design</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup', 'Packaging_Design')">View Project</a>
+                    </div>
+                </div>
+               <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+                <!-- Project 2 - Graphic Design -->
+                <div class="portfolio-item " id="project-2-graphic" data-category="graphic" data-tags="branding logo design">
+                    <div class="item-graphic-preview project1-graphic">
+                    </div>
+                    <div class="item-content">
+                        <h3>Minimal Logo Design</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','Minimal_Logo_Design')">View Project</a>
+                    </div>
+                </div>
+               <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+                <!-- Project 3 - Graphic Design -->
+                <div class="portfolio-item " id="project-3-graphic" data-category="graphic" data-tags="branding social design">
+                    <div class="item-graphic-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>Social Media</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','Social_Media')">View Project</a>
+                    </div>
+                </div>
+               <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+
+                <!-- Project 1 - Web 1-->
+                
+                <div class="portfolio-item " id="project-1-web" data-category="web" data-tags="ecommerce development responsive">
+                    <div class="item-web-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>Bev-Staffs</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','Bev_Staffs')">View Project</a>
+                    </div>
+                </div>
+               <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+
+                <!-- Project 2 - Web 2-->
+                
+                <div class="portfolio-item " id="project-2-web" data-category="web" data-tags="ecommerce development responsive">
+                    <div class="item-web-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>Pavilion Realtors</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','Pavilion_Realtors')">View Project</a>
+                    </div>
+                </div>
+               <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+                <!-- Project 3 - Web -->
+                
+                <div class="portfolio-item " id="project-3-web" data-category="web" data-tags="ecommerce development responsive">
+                    <div class="item-web-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>Sysilscorp</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','Sysilscorp')">View Project</a>
+                    </div>
+                </div>
+                 <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+
+                <!-- Project 1 - UX/UI  -->
+                 
+                <div class="portfolio-item " id="project-1-uiux" data-category="uiux" data-tags="mobile app wireframe prototype">
+                    <div class="item-graphic-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>Get Movers</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','Get_Movers')">View Project</a>
+                    </div>
+                </div>
+                 <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+
+                <!-- Project 2 - UX/UI  -->
+                 
+                <div class="portfolio-item " id="project-2-uiux" data-category="uiux" data-tags="mobile app wireframe prototype">
+                    <div class="item-graphic-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>Go Saudi Go</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','Go_Saudi_Go')">View Project</a>
+                    </div>
+                </div>
+                 <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+
+                <!-- Project 3 - UX/UI  -->
+                 
+                <div class="portfolio-item " id="project-3-uiux" data-category="uiux" data-tags="mobile app wireframe prototype">
+                    <div class="item-graphic-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>Prismatic</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','Prismatic')">View Project</a>
+                    </div>
+                </div>
+                 <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+
+
+                <!-- Project 1 - Social media -->
+                <div class="portfolio-item " id="project-1-social" data-category="graphic" data-tags="branding social design">
+                    <div class="item-graphic-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>banner design</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','banner_design')">View Project</a>
+                    </div>
+                </div>
+                 <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+                <!-- Project 2 - Social media -->
+                <div class="portfolio-item " id="project-2-social" data-category="social" data-tags="branding social design">
+                    <div class="item-graphic-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>Cielo</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','Cielo')">View Project</a>
+                    </div>
+                </div>
+                 <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+                <!-- Project 3 - Social media -->
+                <div class="portfolio-item " id="project-3-social" data-category="social" data-tags="branding social design">
+                    <div class="item-graphic-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>Decora</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','Decora')">View Project</a>
+                    </div>
+                </div>
+                 <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                </div>
+                <!-- Project 4 - Social media -->
+                <div class="portfolio-item " id="project-4-social" data-category="social" data-tags="branding social design">
+                    <div class="item-graphic-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>social media</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','social_media')">View Project</a>
+                    </div>
+                </div>
+                 <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+                <!-- Project 5 - Social media -->
+                <div class="portfolio-item " id="project-5-social" data-category="social" data-tags="branding social design">
+                    <div class="item-graphic-preview ">
+                    </div>
+                    <div class="item-content">
+                        <h3>Prismatic</h3>
+                        <a href="#" class="btn btn-small" onclick="openPopup('popup','Prismatic')">View Project</a>
+                    </div>
+                </div>
+
+                  <!-- Fullscreen Popup -->
+                 <div class="popup" id="popup">
+                  <span class="close-btn" onclick="closePopup('popup')">&times;</span>
+                  <div class="popup-content"></div>
+
+
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="portfolio-cta">
+            <div class="cta-content">
+                <h2>Ready to Create Something Amazing?</h2>
+                <p>Let's discuss how we can bring your vision to life with our expertise.</p>
+                <a href="contact-page.html" class="btn">Get in Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- profile Whatsapp button  -->
+     <div class="profile-online">
+        <a href="https://wa.me/+923216800902" target="_blank"><img src="/Image/profile-online.webp" alt="Contact"></a>
+     </div>
+    <!-- zoom metting button  -->
+     <div class="zoom-meet-btn">
+        <a href="https://calendly.com/boxeltechnology/30min" target="_blank"><img src="/Image/Zoom Icon.webp" alt="Contact"></a>
+     </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="services-page.html">Services</a>
+            <a href="portfolio-page.html">Portfolio</a>
+            <a href="about-page.html">About</a>
+            <a href="contact-page.html">Contact</a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/boxeltechnology" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/boxeltechnology" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/boxeltechnology" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/boxeltechnology" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.tiktok.com/@boxeltechnology" class="social-link" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+       <p class="copyright">© 2025 Boxel Technology. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/portfolio-page.js"></script>
+    <script src="js/Full-screen-pic.js"></script>
+</body>
+</html>

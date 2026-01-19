@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Boxel Technology</title>
+    <link rel="icon" type="image/png" href="/Image/x tab.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\contact-page.css">
+</head>
+<body>
+
+     <!-- Header -->
+<header>
+    <!-- Logo -->
+    
+      <a href="index.html" class="logo"></a>
+    
+
+    <!-- Menu Icon -->
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="services-page.html">Services</a>
+            <a href="portfolio-page.html">Portfolio</a>
+            <a href="about-page.html">About</a>
+            <a href="contact-page.html"id="contact-us-a">Contact us</a>      
+    </nav>
+
+    <!-- Contact Button -->
+
+    <div class="contact-btn">
+      <a href="#contact-form">GET STARTED</a>
+    </div>
+  </header>
+
+    <!-- Main Contact Content -->
+    <main class="contact-main">
+        <!-- Hero Section -->
+        <section class="contact-hero">
+            <div class="hero-content">
+                <h1>Get In <span>Touch</span></h1>
+                <p>Have a project in mind or want to discuss how we can help? Reach out to our team for a consultation.</p>
+                <div class="hero-buttons">
+                    <a href="#contact-form" class="btn"><i class="fas fa-paper-plane"></i> Send Message</a>
+                    <a href="tel:+923216800902" class="btn btn-outline"><i class="fas fa-phone"></i> Call Us</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact-form">
+            <div class="contact-container">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Contact <span>Information</span></h2>
+                    <p>We're here to answer any questions you may have about our services or process.</p>
+                    
+            <div class="cards-container">
+                
+                <div class="card-item">
+                    <div class="card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="card-title">Our Address</h3>
+                    <p>Abdul Hakīm Trade Center, Punjab, Pakistan</p>
+                </div>
+                
+                <div class="card-item">
+                    <div class="card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 class="card-title">
+                        <a href="mailto:jamil@boxeltechnology.com">jamil@boxeltechnology.com</a>
+                    </h3>
+                    <p>Email us anytime for any kind of query.</p>
+                </div>
+                
+                <div class="card-item">
+                    <div class="card-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3 class="card-title">
+                        <a href="tel:+923216800902">+92 321 6800902</a>
+                    </h3>
+                    <p>Mon-Fri, 9am-6pm</p>
+                </div>
+
+            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Send Us a <span>Message</span></h2>
+                    <form id="contactForm" action="/contact-submit.php" method="post">
+                        <div class="form-group">
+                            <label for="name">Your Name*</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number (Optional)</label>
+                            <input type="tel" id="phone" name="phone">
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="3d">3D Modeling</option>
+                                <option value="design">Graphic Design</option>
+                                <option value="web">Web Development</option>
+                                <option value="ux">UX/UI Design</option>
+                                <option value="motion">Motion Graphics</option>
+                                <option value="3d-printing">3D Printing Models</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message*</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <div class="error-message"></div>
+                        </div>
+                        
+                        <button type="submit" class="btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="map-container">
+                <div class="map-3d">
+                    <div class="map-plane"></div>
+                    <div class="map-marker">
+                        <div class="marker-pulse"></div>
+                        <div class="marker-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-info">
+                    <h3>Our <span>Location</span></h3>
+                    <p>Visit our studio by scheduling a meeting with us. We’re located at Abdul Hakīm Trade Center, Kacha Khuh Road, Abdul Hakīm, Pakistan.</p>
+                    <a href="https://maps.app.goo.gl/3gmmiXPWyfVtivPLA" target="_blank" class="btn btn-outline">
+                        <i class="fas fa-directions"></i> Get Directions
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- profile Whatsapp button  -->
+     <div class="profile-online">
+        <a href="https://wa.me/+923216800902" target="_blank"><img src="/Image/profile-online.webp" alt="Contact"></a>
+     </div>
+    <!-- zoom metting button  -->
+     <div class="zoom-meet-btn">
+        <a href="https://calendly.com/boxeltechnology/30min" target="_blank"><img src="/Image/Zoom Icon.webp" alt="Contact"></a>
+     </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="services-page.html">Services</a>
+            <a href="portfolio-page.html">Portfolio</a>
+            <a href="about-page.html">About</a>
+            <a href="contact-page.html">Contact</a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/boxeltechnology" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/boxeltechnology" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/boxeltechnology" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/boxeltechnology" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.tiktok.com/@boxeltechnology" class="social-link" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p class="copyright">© 2025 Boxel Technology. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. Our team will get back to you within 24 hours.</p>
+            <button class="btn" id="closeModal">Close</button>
+        </div>
+    </div>
+
+    <script src="/js/contact-page.js"></script>
+</body>
+</html>
